@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import UseMediaQuery from "../hooks/UseMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = UseMediaQuery("(min-width: 1060px)");
