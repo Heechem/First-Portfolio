@@ -53,7 +53,7 @@ const Landing = ({ setSelectedPage }) => {
               Ichallamene
             </span>
           </p>
-          <p className="text-md mb-7 mt-10 text-center leading-loose md:text-start">
+          {/* <p className="text-md mb-7 mt-10 text-center leading-loose md:text-start">
             I am Heechem, a self-taught software developer with a goal to give
             birth to ideas from my mind to the real world .
             <br />
@@ -66,6 +66,13 @@ const Landing = ({ setSelectedPage }) => {
             <br /> This portfolio is a testament to my journey, dive in, explore
             my work, and lets connect to explore new possibilities in the world
             of technology
+          </p> */}
+          <p className="text-md mb-7 mt-10 text-center leading-loose md:text-start">
+            {" "}
+            I invite you to explore my portfolio, which, though it showcases
+            only a handful, represents projects I hold dear and am immensely
+            proud of. Each piece is a testament to my commitment to excellence
+            and innovation.
           </p>
         </motion.div>
         {/* call to action  */}

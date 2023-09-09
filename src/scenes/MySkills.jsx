@@ -27,8 +27,8 @@ const MySkills = () => {
           <p className="mb-7 mt-10">
             In my journey as a self taught developer, I bring a unique blend of
             expertise to the table. Armed with a master&rsquo;s degree in supply
-            chain management, my background is rooted in precision and
-            problem-solving.
+            chain management, and strong customer service experience, my
+            background is rooted in precision and problem-solving.
           </p>
         </motion.div>
 
@@ -53,6 +53,61 @@ const MySkills = () => {
       {/* Skills */}
       <div className="mt-16 gap-32 md:flex md:justify-between">
         {/* experience */}
+        <motion.div
+          className="mt-10 md:w-1/3"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-playfair text-5xl font-semibold">01</p>
+              <p className="mt-3 font-playfair text-3xl font-semibold">
+                Experience
+              </p>
+            </div>
+            <div className="md:w-3/2 absolute right-0 top-0 z-[-1] h-32 w-1/2 bg-blue"></div>
+          </div>
+          <ul>
+            <li> ✔️ 5 years of exceptional Customer Service </li>
+            <li> ✔️ Effective Communication Skills: </li>
+            <li> ✔️ Documentation and Support Improvement</li>
+            <li> ✔️ Collaboration and Problem Resolution</li>
+          </ul>
+        </motion.div>
+        {/* Inovation */}
+        <motion.div
+          className="mt-10 md:w-1/3"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-playfair text-5xl font-semibold">02</p>
+              <p className="mt-3 font-playfair text-3xl font-semibold">
+                Frontend Developer
+              </p>
+            </div>
+            <div className="md:w-3/2 absolute right-0 top-0 z-[-1] h-32 w-1/2 bg-red"></div>
+          </div>
+          <ul>
+            <li> ✔️ HTML </li>
+            <li> ✔️ CSS | Tailwind </li>
+            <li> ✔️ TypeScript | JavaScript | </li>
+            <li> ✔️ React | Next.Js</li>
+          </ul>
+        </motion.div>
       </div>
     </section>
   );
