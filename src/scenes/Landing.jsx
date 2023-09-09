@@ -54,7 +54,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="text-md mb-7 mt-10 text-center leading-loose md:text-start">
-            I'm Heechem, a self-taught software developer with a goal to give
+            I am Heechem, a self-taught software developer with a goal to give
             birth to ideas from my mind to the real world .
             <br />
             <p className="mt-10">
@@ -95,7 +95,7 @@ const Landing = ({ setSelectedPage }) => {
           >
             <div className="flex h-full w-full items-center justify-center bg-deep-blue px-10 font-playfair transition duration-500 ease-in-out hover:text-red">
               {" "}
-              Let's talk.
+              Let&rsquo;s talk.
             </div>
           </AnchorLink>
         </motion.div>
