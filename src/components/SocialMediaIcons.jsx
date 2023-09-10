@@ -13,7 +13,7 @@ const SocialMediaIcons = () => {
       </a>
 
       <a
-        className="scale-50 transition duration-500 hover:opacity-50"
+        className=" over:border-cyan-300 scale-50 transition   duration-500 hover:opacity-50 "
         href="https://www.facebook.com/hich.icha.92/"
         target="_blank"
         rel="noreferrer"
