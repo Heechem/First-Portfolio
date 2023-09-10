@@ -175,7 +175,7 @@ const MySkills = () => {
             </div>
             <div className="md:w-3/2 absolute right-0 top-0 z-[-1] h-32 w-1/2 bg-red"></div>
           </div>
-          <div className="md:flex md:flex-wrap md:justify-between md:gap-3">
+          <div className=" md:flex md:flex-wrap md:justify-between md:gap-3">
             {skills.map((item) => (
               <div
                 key={item.name}
