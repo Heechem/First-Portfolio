@@ -2,6 +2,80 @@ import React from "react";
 import UseMediaQuery from "../hooks/UseMediaQuery";
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
+import {
+  SiCsharp,
+  SiCss3,
+  SiGit,
+  SiGithub,
+  SiHtml5,
+  SiJavascript,
+  SiJest,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+  SiWebpack,
+} from "react-icons/si";
+
+// the sKills array
+
+const skills = [
+  {
+    name: "HTML",
+    icon: (
+      <SiHtml5
+        size={"3em"}
+        className="origin-bottom transition duration-300 group-hover:text-[#E34F26]"
+      />
+    ),
+  },
+  {
+    name: "CSS",
+    icon: (
+      <SiCss3
+        size={"3em"}
+        className="origin-bottom  transition duration-300 group-hover:text-[#1572B6]"
+      />
+    ),
+  },
+  {
+    name: "Javascript",
+    icon: (
+      <SiJavascript
+        size={"3em"}
+        className="origin-bottom transition duration-300 group-hover:text-[#F7DF1E]"
+      />
+    ),
+  },
+  {
+    name: "React",
+    icon: (
+      <SiReact
+        size={"3em"}
+        className="origin-bottom transition duration-300 group-hover:text-[#61DAFB]"
+      />
+    ),
+  },
+
+  {
+    name: "Tailwind",
+    icon: (
+      <SiTailwindcss
+        size={"3em"}
+        className="origin-bottom transition duration-300 group-hover:text-[#06B6D4]"
+      />
+    ),
+  },
+
+  {
+    name: "Git",
+    icon: (
+      <SiGit
+        size={"3em"}
+        className="origin-bottom transition duration-300 group-hover:text-[#F05032]"
+      />
+    ),
+  },
+];
 
 const MySkills = () => {
   const isAbodeMediumScreens = UseMediaQuery("(min-width: 1060px)");
@@ -101,12 +175,17 @@ const MySkills = () => {
             </div>
             <div className="md:w-3/2 absolute right-0 top-0 z-[-1] h-32 w-1/2 bg-red"></div>
           </div>
-          <ul>
-            <li> ✔️ HTML </li>
-            <li> ✔️ CSS | Tailwind </li>
-            <li> ✔️ TypeScript | JavaScript | </li>
-            <li> ✔️ React | Next.Js</li>
-          </ul>
+          <div className="md:flex md:flex-wrap md:justify-between md:gap-3">
+            {skills.map((item) => (
+              <div
+                key={item.name}
+                className="group flex w-1/3  items-center  justify-between gap-2 md:gap-0"
+              >
+                <p className=" text-base sm:text-lg">{item.name}</p>
+                <div className="m-2 hover:cursor-pointer">{item.icon}</div>
+              </div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>
