@@ -1,4 +1,7 @@
 import React from "react";
+import linkedinImg from "../../public/linkedin.png";
+import FacebokkImg from "../../public/facebook.png";
+import GithubImg from "../../public/github-mark.png";
 
 const SocialMediaIcons = () => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-100 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-red text-4xl cursor-pointer`;
@@ -13,7 +16,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="Linkedin-link" src="../../public/linkedin.png"></img>
+          <img alt="Linkedin-link" src={linkedinImg}></img>
         </a>
       </div>
       <div className="scale-50">
@@ -24,7 +27,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="Facebook-link" src="../../public/facebook.png"></img>
+          <img alt="Facebook-link" src={FacebokkImg}></img>
         </a>
       </div>
       <div className="scale-50">
@@ -35,7 +38,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="github-link" src="../../public/github-mark.png"></img>
+          <img alt="github-link" src={GithubImg}></img>
         </a>
       </div>
     </div>

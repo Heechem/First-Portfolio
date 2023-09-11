@@ -16,6 +16,8 @@ import {
   SiWebpack,
 } from "react-icons/si";
 
+import skillsImg from "../../public/skills-image.png";
+
 // the sKills array
 
 const skills = [
@@ -109,18 +111,10 @@ const MySkills = () => {
         <div className="mt-16 md:mt-0">
           {isAbodeMediumScreens ? (
             <div className="relative z-0 ml-20 before:absolute before:-left-20 before:-top-10 before:z-[-1]  before:h-full before:w-full  before:border-2 before:border-blue md:before:max-w-[600px]">
-              <img
-                src="../../public/skills-image.png"
-                alt="Profile"
-                className="z-10"
-              />
+              <img src={skillsImg} alt="Profile" className="z-10" />
             </div>
           ) : (
-            <img
-              src="../../public/skills-image.png"
-              alt="Profile"
-              className="z-10"
-            />
+            <img src={skillsImg} alt="Profile" className="z-10" />
           )}
         </div>
       </div>
