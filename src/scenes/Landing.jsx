@@ -28,7 +28,7 @@ const Landing = ({ setSelectedPage }) => {
           </div>
         ) : (
           <img
-            src="src/assets/profile-image.jpg"
+            src="../../public/profile-image.jpg"
             alt="Profile"
             className="md:mx-w-[600px] z-10 w-full max-w-[400px] rounded-lg border-2  border-red transition duration-500  hover:saturate-200 hover:filter"
           />

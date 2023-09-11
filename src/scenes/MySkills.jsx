@@ -110,14 +110,14 @@ const MySkills = () => {
           {isAbodeMediumScreens ? (
             <div className="relative z-0 ml-20 before:absolute before:-left-20 before:-top-10 before:z-[-1]  before:h-full before:w-full  before:border-2 before:border-blue md:before:max-w-[600px]">
               <img
-                src="src/assets/skills-image.png"
+                src="../../public/skills-image.png"
                 alt="Profile"
                 className="z-10"
               />
             </div>
           ) : (
             <img
-              src="src/assets/skills-image.png"
+              src="../../public/skills-image.png"
               alt="Profile"
               className="z-10"
             />
