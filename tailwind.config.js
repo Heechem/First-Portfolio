@@ -26,9 +26,9 @@ export default {
       },
       content: {
         brush: "url('../../public/brush.png')",
-        person1: "url('./public/person-1.png')",
-        person2: "url('./public/person-2.png')",
-        person3: "url('./public/person-3.png')",
+        person1: "url('../../public/person-1.png')",
+        person2: "url('../../public/person-2.png')",
+        person3: "url('../../public/person-3.png')",
       },
     },
     screens: {
