@@ -26,7 +26,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }) => {
   return (
     <nav className={`fixed top-0 z-40 w-full py-6 ${navbarBackground}`}>
       <div className="mx-auto flex w-5/6 items-center justify-between">
-        <h4 className="font-playfair text-3xl font-bold">I.M.H</h4>
+        <h4 className="font-playfair text-3xl font-bold">Heechem</h4>
 
         {/* Dsektop Nav */}
 
