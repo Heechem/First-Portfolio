@@ -30,7 +30,7 @@ const Projects = () => {
           <p className="font-playfair text-2xl">{title}</p>
           <p className="mt-7">My first Project represent</p>
         </div>
-        <img src={`src/assets/${projectTitle}.jpeg`} alt="" />
+        <img src={`../../public/${projectTitle}.jpeg`} alt="" />
       </motion.div>
     );
   };

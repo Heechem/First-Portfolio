@@ -13,7 +13,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="Linkedin-link" src="../assets/linkedin.png"></img>
+          <img alt="Linkedin-link" src="../../public/linkedin.png"></img>
         </a>
       </div>
       <div className="scale-50">
@@ -24,7 +24,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="Facebook-link" src="../assets/facebook.png"></img>
+          <img alt="Facebook-link" src="../../public/facebook.png"></img>
         </a>
       </div>
       <div className="scale-50">
@@ -35,7 +35,7 @@ const SocialMediaIcons = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img alt="github-link" src="../assets/github-mark.png"></img>
+          <img alt="github-link" src="../../public/github-mark.png"></img>
         </a>
       </div>
     </div>
