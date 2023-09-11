@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import UseMediaQuery from "../hooks/UseMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-// import { menupics } from "../../public/menu-icon.svg";
+import menupics from "../../public/menu-icon.svg";
 
 // Nabar Links and fct
 const Link = ({ page, selectedPage, setSelectedPage }) => {
@@ -64,7 +64,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }) => {
             className="rounded-full bg-red p-3"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <img src="../../public/menu-icon.svg" alt="menu-icon" />
+            <img src={menupics} alt="menu-icon" />
           </button>
         )}
 
@@ -75,7 +75,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }) => {
             {/* Close Icon  */}
             <div className=" flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                <img src="src/assets/close-icon.svg" alt="" />
+                <img src={menupics} alt="" />
               </button>
             </div>
             {/* Menu Items */}
