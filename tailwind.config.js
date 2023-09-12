@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+import person1 from "../../public/person-1.png";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   mode: "jit",
@@ -26,7 +28,7 @@ export default {
       },
       content: {
         brush: "url('../../public/brush.png')",
-        person1: "url('../../public/person-1.png')",
+        person1: person1,
         person2: "url('../../public/person-2.png')",
         person3: "url('../../public/person-3.png')",
       },
